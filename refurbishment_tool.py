@@ -54,12 +54,13 @@ def main():
         st.subheader("Insights")
         st.write(f"""
         - **Energy Savings**: {results['Annual Energy Savings (kWh)']} kWh annually.
-        - **Cost Savings**: ${results['Annual Cost Savings (USD):.2f'} per year.
-        - **CO₂ Reduction**: {results['CO₂ Reduction (kg/year):.2f'} kg annually.
+        - **Cost Savings**: ${results['Annual Cost Savings (USD)']:.2f} per year.
+        - **CO₂ Reduction**: {results['CO₂ Reduction (kg/year)']:.2f} kg annually.
         - **Payback Period**: {results['Payback Period (years)']} years.
         - **Extended System Lifecycle**: {results['New Lifecycle Duration (years)']} years.
         """)
 
+        
     st.write("---")
     st.write("Developed with ❤️ by Code Copilot")
 
